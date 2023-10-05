@@ -1,0 +1,89 @@
+/* 
+CSS Notes
+Colors:
+color: #474646;
+color: #bcbdbd;
+color: #ffffff;
+color: #b1ea29;
+color: #000000;
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @tailwindcss/forms; */
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  }
+
+.logo {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.simpl {
+  color: #91c220;
+  font-weight: 600;
+  }
+
+.simpl-lg {
+  color: #91c220;
+  font-size: 36px;
+}
+
+.bg-simpl {
+  background-color: #91c220;
+}
+
+.bg-dark {
+  background-color: #91c220;
+}
+
+/* .section_bkgd {
+  background-color: #bcbdbd;
+} */
+
+.section_title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section_subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+}
+
+.req_button {
+  background-color: black;
+  color: #ffffff;
+  padding: 5px 15px;
+}
+
+.border-t {
+  border-top: 2px solid black;
+}
+
+.key_image {
+  width: 600px;
+}
+
+.pricing {
+  border-top: 3px solid lightgray;
+  border-bottom: 3px solid lightgray;
+}
+
+.icons {
+  height: 75px;
+}
+
+.product_cycle {
+  background-color: #91c22070;
+}
+
+.product_features {
+  border-bottom: 2px solid #91c220;
+}
